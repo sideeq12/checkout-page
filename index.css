@@ -39,6 +39,13 @@ select{
 .btn{
     background-color: #eb5e0b;
 }
+.price span{
+    color:  #eb5e0b;
+    font-weight: bold;
+}
+.price label{
+    opacity: 0.8;
+}
 
 @media (max-width: 720px){
     .content{
