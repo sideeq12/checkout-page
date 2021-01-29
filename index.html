@@ -6,19 +6,68 @@
     <title>Chectouk page</title>
     <!-- boostrap cdn -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Inner Css -->
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
     <div class="container mt-4">
         <h3>Checkout</h3>
         <div class="content">
             <div class="options">
+                <div class="Contact">
                 <label>Contact information</label>
                 <div class="form">
-                    <label>Email</label> <br/>
-                    <input type="email" placeholder="Enter your email..." class="form-control" required>
-                    <br/>
-                    <label>Phone</label> <br/>
-                    <input type="number" placeholder="Enter your Phone..." class="form-control" required>
+                    <span>Email</span> <br/>
+                    <input type="email" placeholder="Enter your email..."  required>
+                    <br/><br/>
+                    <span>Phone</span> <br/>
+                    <input type="number" placeholder="Enter your Phone..."  required>
+                </div>
+            </div>
+        <div class="Adress">
+            <label>Shipping Adress</label>
+            <div class="form">
+                <span>Full name</span> <br/>
+                <input type="text" placeholder="Enter your email..."  required>
+                <br/><br/>
+                <span>Adress</span> <br/>
+                <input type="text" placeholder="your adress..." required>
+                <br/><br/>
+                <span>City</span>
+                <br/>
+                <input type="text" placeholder="your city..." required>
+                <br/><br/>
+                <div class="lower">
+                    <div>
+                        <span>Country</span><br/>
+                        <select>
+             <option name="country" id="null">select country</option>
+             <option name="country" id="1">Nigeria</option>
+             <option name="country" id="2">United States</option>
+             <option name="country" id="3">Denmark</option>
+             <option name="country" id="4">United Kingdom</option>  </select>
+                    </div>
+                       <div>
+                       <div class="post">
+                                             <span>Postal code</span>
+                                                <br/>
+                                                <input type="number" placeholder="your postal code.." >
+                                                </div>
+                          </div>
+                                    
+                </div>
+            </div>
+        </div>
+        Save this information for the next time. <br/>
+        <div class="btn btn-success">Continue</div>
+        </div>
+        <div class="order">
+            <div class="cart1">
+                <img src="/images/photo1.png" width="40%" alt="sideeq Abdwaheed DevChallenge.io">
+                <div class="details"> 
+                    <div class="text">
+                        <h6>Vintage BackBag</h6>
+                    </div>
                 </div>
             </div>
         </div>
