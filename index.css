@@ -22,9 +22,58 @@ select{
 }
 
 .order{
-    width: 45%;
-    background-color: #e8efeb;
-    border-radius: 10px;
+    width: 400px;
+    background-color: #edf3f0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.cart1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 300px;
+}
+.count{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 120px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    justify-content: space-between;
+}
+.button{
+    background-color: #dfe0df;
+    width: 20px;
+    margin: 5px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.shop{
+    border-top: 2px solid black;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    align-self: center;
+}
+.shop span{
+    font-weight: bold;
+}
+.first{
+    margin-top: 70px;
+}
+.text{
+    margin-left: 15px;
 }
 .lower{
     display: flex;
